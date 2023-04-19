@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP GAMES</title>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            background: url("https://wallpaper-house.com/data/out/10/wallpaper2you_420670.jpg");
+        }
+
+        .auto {
+            width: 100%;
+
+            background: rgb(0, 0, 0);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav-logo {
+            width: 70px;
+
+            /* background: darkslategray; */
+        }
+
+        .nav-links {
+            width: 500px;
+            display: flex;
+            align-items: center;
+            /* background: rgb(124, 187, 187); */
+        }
+
+        .nav-logo img {
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+        }
+
+        .list {
+            display: flex;
+            list-style-type: none;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+
+        .list li {
+            font-size: 30px
+        }
+
+        .list a {
+            text-decoration: none;
+            padding: 15px 20px;
+            background: rgb(113, 180, 255);
+            color: white;
+        }
+        .box{
+            display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+        }
+        .post{
+            font-size: 116px;
+        }
+        .sign{
+            font-size: 31px;
+            width: 75%;
+        }
+        .box img{
+            width: 823px;
+            height: 489px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="auto">
+        <div class="nav-logo">
+            <img src="data:image/jpeg;base64,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"
+                alt="">
+        </div>
+        <div class="nav-links">
+            <ul class="list">
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./Top Games.html">
+                    <li>Top Games</li>
+                
+                </a>
+                <a
+                    href="Contact.html">
+                    <li>Contact us</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+   <div class="box">
+
+    <h1> Da Best Selling Games</h1>
+
+    <h3>10. Pokemon Gen 1 - 47 million</h3>
+    <img src="https://assets1.ignimgs.com/2019/03/18/pokemonblue-1552946351170.jpg?crop=16%3A9&width=888" alt="IMAGE OF POKEMON GEN 1">
+
+    <p>In Japan, the era-defining original Pokemon was available in two versions at launch (Red and Green) before coming to other territories as Pokemon Red and Blue. Yellow Version (aka Special Pikachu Edition) followed between 1998 and 2000, depending on the territory.
+
+        While Nintendo hasn't publicly shared a sales total for the first generation of Pokemon games, survey data from the Computer Entertainment Supplier's Association (CESA)* put the four versions' combined sales around 45 million copies — approximately 31.05 million for Red/Blue/Green and 14.64 million for Yellow. 1.5 million copies were also sold on 3DS through Virtual Console, according to Nintendo, bringing the estimated total of Pokemon’s first-gen games to roughly 47 million.
+        
+        We reached out to Nintendo for an official number and didn’t receive a response. However, we do have an official sales total for the franchise: Pokemon games collectively sold over 440 million units by the end of March 2022.
+        
+        *CESA is a respected industry publication out of Japan. The association's annual “white paper" details Japanese and global video game sales data collected through surveys of publishers. Member companies include Sony, Microsoft Japan, Capcom, Square Enix, EA, and Atlus; Nintendo is listed as a “special supporting member.”</p>
+        <hr>
+        <h1>
+        9. Super Mario Bros. - 48 million
+        </h1>
+        <img src="https://img.redbull.com/images/c_fill,g_auto,w_830,h_489/q_auto:low,f_auto/redbullcom/2016/10/18/1331824545694_3/super-mario-bros-world-record-speedrun" alt="">
+   </div>
+  
+</body>
+
+</html>
+
+
